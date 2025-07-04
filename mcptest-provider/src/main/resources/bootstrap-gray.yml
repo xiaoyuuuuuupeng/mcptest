@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: mcptest
+  cloud:
+    nacos:
+      config:
+        server-addr: localhost:8848
+        file-extension: yml
+        username: username
+        password: password
+        group: DEFAULT_GROUP
+        namespace: namespace
+      discovery:
+        enabled: false
